@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <div class="logoBox">
+            <div class="logo">
+                <h1>Pokedex</h1>
+            </div>
+            <div class="menuBox">
+                <div class="lupa" onClick="toggleSearch()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="favorito">
+                    <i class="fas fa-star"></i>
+
+                    <!-- <i class="far fa-star"></i> vazia -->
+                </div>
+                <div class="check">
+                    <i class="fas fa-check-circle"></i>
+
+                    <!-- <i class="far fa-check-circle"></i> vazio -->
+                </div>
+                <div class="menu" onClick="toggleMenu()">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <!-- <i class="fas fa-times"></i> close -->
+                </div>
+            </div>
+        </div>
+        <div class="filtroBox">
+            <a href="#">Todos</a>
+            <a href="#">Tipos</a>
+            <a href="#">Habilidades</a>
+        </div>
+        <div class="busca">
+            <input type="text" name="search" id="search" placeholder="Buscar">
+            <span><i class="fas fa-search"></i></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="pokemon-box">
+           <!-- Recebendo o conteudo dinamicamente  -->
+        </div>
+    </main>
+    <footer>
+        <p>Em desenvolvimento... <a href="www.lpcode.com.br">LPcode</a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
